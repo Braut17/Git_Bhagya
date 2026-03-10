@@ -39,7 +39,8 @@ public class frames {
 		{
 			System.out.println(link.getText());
 		}
-		
+				System.out.println("This is Pull");
+
 		//Footer Links
 		System.out.println("Footer Links********************************************");
 		WebElement footer = driver.findElement(By.className("clearfix"));
